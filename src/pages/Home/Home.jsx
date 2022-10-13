@@ -1,9 +1,12 @@
-import Header from "../../components/Header/Header";
 import "./Home.css";
+import { Link } from "react-router-dom";
+
 function Home() {
   return (
-    <div className="home" style={{ backgroundImage: "url(./ques1.png)" }}>
-      <Header />
+    <div className="home">
+      <Link to="/" className="title">
+        professional assessment hub
+      </Link>
     </div>
   );
 }
