@@ -1,7 +1,11 @@
-import React from "react";
-
+import Header from "../../components/Header/Header";
+import "./Home.css";
 function Home() {
-  return <div>Home</div>;
+  return (
+    <div className="home" style={{ backgroundImage: "url(./ques1.png)" }}>
+      <Header />
+    </div>
+  );
 }
 
 export default Home;
